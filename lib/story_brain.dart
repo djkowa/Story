@@ -83,7 +83,7 @@ void nextStory(int choiceNumber){
   }
 
 }
-  buttonShouldBeVisible(){
+  buttonShouldBeVisible (){
     return _storyNumber <=2 ? true : false;
   }
 }
